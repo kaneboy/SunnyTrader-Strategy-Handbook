@@ -1,6 +1,8 @@
-# 配置开发环境
+## 配置开发环境
 
 要在你的计算机上开发运行于SunnyTrader的交易策略，首先你需要配置一个合适的开发环境。
+
+开发计算机操作系统的最低需求是Windows 7 SP1 64位。笔者所使用的开发计算机运行的是Windows 10 \(build 1607\)操作系统。
 
 SunnyTrader原生支持的开发平台是.NET Framework，所以首选的开发语言是.NET Framework所支持的各种编程语言，包括C\#、VB.NET、F\#、C++/CLI、IronPython等。在未来，我们会提供对更多语言的支持，包括Node.js\(JavaScript\)、Python、Java等。在本书中，我们都会使用C\#语言作为代码示例所使用的编程语言。
 
