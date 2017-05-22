@@ -6,7 +6,11 @@
 
 SunnyTrader原生支持的开发平台是.NET Framework，所以首选的开发语言是.NET Framework所支持的各种编程语言，包括C\#、VB.NET、F\#、C++/CLI、IronPython等。在未来，我们会提供对更多语言的支持，包括Node.js\(JavaScript\)、Python、Java等。在本书中，我们都会使用C\#语言作为代码示例所使用的编程语言。
 
-为了开发交易策略，你需要下载并安装Visual Studio 2017 \(你可以任意选择专业版或企业版，推荐使用免费的[Visual Studio 2017社区版](https://www.visualstudio.com/zh-hans/vs/community/)\)。在撰写本书时，笔者所使用的Visual Studio 2017具体版本号是15.2，建议你不要使用低于这个版本号的Visual Studio 2017。
+> **为什么选择.NET作为开发平台？**
+>
+> 在其它类似的交易平台中，可能会为策略开发者提供一种定制的脚本语言来作为扩展开发语言。定制的脚本语言具有简单、易学的优点，但是对于真正复杂的交易策略，脚本语言无法提供足够的灵活性与扩展性。.NET为策略开发者提供了一个强大的开发平台，开发者可以使用更强大的编程语言，获得.NET的完整开发能力\(比如开发策略所必需的并发与多线程控制\)。在关键代码路径中，如果有需要，开发者甚至可以使用C++来编写专门的计算组件，然后在.NET中进行调用，以获得更高的运行效能。
+
+为了开发交易策略，你需要下载并安装Visual Studio 2017 \(你可以任意选择专业版或企业版，推荐使用免费的[Visual Studio 2017社区版](https://www.visualstudio.com/zh-hans/vs/community/)\)。在撰写本书时，笔者所使用的Visual Studio 2017具体版本号是15.2，建议不要使用低于这个版本号的Visual Studio 2017。
 
 ![](/assets/VS2017Build.png)
 
